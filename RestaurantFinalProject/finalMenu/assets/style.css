@@ -1,0 +1,385 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-color: #000;
+}
+.header{
+    height: 100vh;
+}
+.navbar .bgimg {
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-image: url(/assets/images/davide-cantelli-jpkfc5_d-DI-unsplash.jpg);
+    opacity: 0.5;
+    width: 1440px;
+    height: 703px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0px auto;
+    align-items: center;
+}
+
+.navbar .container .link,a
+{
+    color: #fff;
+    position: relative;
+    text-decoration: none;
+}
+.navbar .container ul {
+    display: flex;
+    margin-right: 10px;
+}
+
+.navbar .container ul li {
+    list-style: none;
+   
+}
+
+.navbar .container ul li a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Jost', sans-serif;
+}
+
+.hero {
+    width: 100%;
+}
+.hero .container .heropart .icon {
+    color: #fff;
+}
+
+.hero .container .heropart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding-top: 10px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.hero .container .heropart ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.hero .container .heropart ul li a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+}
+
+.hero .container .heropart .btn {
+    border: 1px solid #fff;
+    padding:12px 30px;
+    color: #fff;
+} 
+
+.hero .container .textcontent {
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+.hero .container .textcontent h1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 600px;
+    letter-spacing: 0;
+    font-style: normal;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.menupart .container .menucontent {
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 200px;
+    animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.menupart .container .menucontent img {
+    margin: 8px;
+}
+
+.menupart .container .menucontent .img1 {
+    width: 297px;
+    height: 401px;
+}
+
+.menupart .container .menucontent .img2 {
+    width: 343px;
+    height: 514px;
+}
+
+.menupart .container .headtext {
+    margin-left: 720px;
+    bottom: 450px;
+    position: relative;
+    font-size: 24px;
+    color: #dd5903;
+    font-weight: 600;
+}
+
+.menupart .menusection {
+    position: absolute;
+    top: 650px;
+    left: 450px;
+}
+
+.menupart .menusection .linewrapper {
+    display: flex;
+    align-items: baseline;
+    padding-left: 342px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.menupart .menusection .middle {
+    border-bottom: 1px dotted #aaa;
+    flex-grow: 1;
+    margin: 0 5px;
+    padding: 0 121px;}
+
+.menupart .menusection .ingredients {
+    padding-left: 343px;
+    color: #d3d3d3;
+    font-family: 'Jost', sans-serif;
+    margin-bottom: 32px;
+}
+
+.menupart2 .container .headtext {
+    left: 46px;
+    bottom: 450px;
+    position: relative;
+    font-size: 24px;
+    color: #dd5903;
+    font-weight: 600;
+}
+
+.menupart2 .menusection {
+    position: absolute;
+    top: 1408px;
+    margin-left: -296px;
+}
+
+.menupart2 .menusection .linewrapper {
+    display: flex;
+    align-items: baseline;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 0 343px;
+}
+
+.menupart2 .menusection .middle {
+    border-bottom: 1px dotted #aaa;
+    flex-grow: 1;
+    margin: 0 5px;
+    padding: 0 167px;
+}
+
+.menupart2 .menusection .ingredients {
+    padding: 0 343px;
+    color: #d3d3d3;
+    font-family: 'Jost', sans-serif;
+    margin-bottom: 32px;
+}
+
+.menupart2 .container .menucontent {
+    vertical-align: middle;
+    display: flex;
+    margin-top: 200px;
+    margin-left: 677px;
+    animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.menupart2 .container .menucontent img {
+    margin: 8px;
+}
+
+.menupart2 .container .menucontent .img1 {
+    width: 343px;
+    height: 514px;
+}
+
+.menupart2 .container .menucontent .img2 {
+    width: 297px;
+    height: 401px;
+}
+
+.menupart3 .container .headtext {
+    margin-left: 720px;
+    bottom: 640px;
+    position: relative;
+    font-size: 24px;
+    color: #dd5903;
+    font-weight: 600;
+}
+
+.menupart3 .menusection {
+    position: absolute;
+    top: 2051px;
+    left: 450px;
+}
+
+.menupart3 .menusection .linewrapper {
+    display: flex;
+    align-items: baseline;
+    padding-left: 342px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.menupart3 .menusection .middle {
+    border-bottom: 1px dotted #aaa;
+    margin: 0 5px;
+    padding: 0 121px;
+    flex-grow: 1;
+}
+
+.menupart3 .menusection .ingredients {
+    padding-left: 343px;
+    color: #d3d3d3;
+    font-family: 'Jost', sans-serif;
+    margin-bottom: 32px;
+}
+
+.menupart3 .container .menucontent img {
+    width: 600px;
+    height: 792px;
+    position: relative;
+    top: 100px;
+    left: 48px;
+    animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.menupart4 .container .headtext {
+    left:46px;
+    bottom: 533px;
+    position: relative;
+    font-size: 24px;
+    font-weight: 600;
+    color: #dd5903;
+}
+
+.menupart4 .menusection {
+    position: absolute;
+    top: 2910px;
+    margin-left: -296px;
+}
+
+.menupart4 .menusection .linewrapper {
+    display: flex;
+    align-items: baseline;
+    padding: 0 327px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 16px;
+}
+
+.menupart4 .menusection .middle {
+    border-bottom: 1px dotted #aaa;
+    flex-grow: 1;
+    margin: 0 5px;
+    padding: 0 121px;
+}
+
+.menupart4 .menusection .ingredients {
+    padding: 0 343px;
+    color: #d3d3d3;
+    font-family: 'Jost', sans-serif;
+    margin-bottom: 17px;
+}
+
+.menupart4 .container .menucontent {
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: 600px;
+    animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.menupart4 .container .menucontent img {
+    margin: 8px;
+}
+
+.menupart4 .container .menucontent .img1 {
+    width: 343px;
+    height: 514px;
+}
+
+.menupart4 .container .menucontent .img2 {
+    width: 297px;
+    height: 401px;
+}
+
+/* .hero .container .heropart img {} */

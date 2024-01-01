@@ -1,0 +1,339 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.slides {
+    display: flex;
+    margin-bottom: 60px;
+    position: absolute;
+    top: 0;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    transition: 2s;
+}
+
+.slide img {
+    width: 1440px;
+    height: 830px;
+}
+
+.slide .slide_content {
+    position: absolute;
+    margin-bottom: 50px;
+}
+
+.navigation-manual {
+    position: absolute;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 1px solid red;
+    padding: 5px;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 10px;
+    margin-top: 700px;
+}
+
+.manual-btn:hover {
+    background-color: #ffff;
+}
+
+.navbar {
+    width: 100%;
+    border-style: solid;
+    padding: 20px;
+    border-width: 0px 0px 1px 0px;
+    border-color: #FFFFFF1F;
+    transition: 0.3s;
+    border 0.3s,
+    border-radius 0.3s,
+    box-shadow 0.3s;
+    padding: 16px 0px 16px 0px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1363px;
+    margin: 0px auto;
+    align-items: center;
+    height: 70px;
+}
+
+.navbar .container .icon a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+}
+
+.navbar .container ul {
+    display: flex;
+    margin-right: 10px;
+   
+}
+
+.navbar .container ul li {
+    list-style: none;
+}
+
+.navbar .container ul li a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: #ffff;
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+}
+
+
+.hero {
+    width: 100%;
+}
+
+.hero .container .heropart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding-top: 10px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.hero .container .heropart img {
+    width: 40px;
+    height: 42px;
+}
+
+.hero .container .heropart ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.hero .container .heropart ul li a {
+    text-decoration: none;
+    margin: 0 11px;
+    color: #ffff;
+}
+
+.hero .container .heropart button {
+    border: 1px solid black;
+    background-color: #ffff;
+    padding: 12px 30px;
+}
+
+menupart .container .menucontent {
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 200px;
+    animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.menupart .container .menucontent img {
+    margin: 8px;
+}
+
+.menupart .container .menucontent .img1 {
+    width: 297px;
+    height: 401px;
+}
+
+.menupart .container .menucontent .img2 {
+    width: 343px;
+    height: 514px;
+}
+
+.menupart .container .headtext {
+    margin-left: 720px;
+    bottom: 450px;
+    position: relative;
+    font-size: 24px;
+    color: #dd5903;
+    font-weight: 600;
+}
+
+.menupart .menusection {
+    position: absolute;
+    top: 650px;
+    left: 450px;
+}
+
+.menupart .menusection .linewrapper {
+    display: flex;
+    align-items: baseline;
+    padding-left: 342px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.menupart .menusection .middle {
+    border-bottom: 1px dotted #aaa;
+    flex-grow: 1;
+    margin: 0 5px;
+    padding: 0 121px;
+}
+
+.menupart .menusection .ingredients {
+    padding-left: 343px;
+    color: #d3d3d3;
+    font-family: 'Jost', sans-serif;
+    margin-bottom: 32px;
+}
+
+.menupart2 .container .headtext {
+    left: 46px;
+    bottom: 450px;
+    position: relative;
+    font-size: 24px;
+    color: #dd5903;
+    font-weight: 600;
+}
+
+.menupart2 .menusection {
+    position: absolute;
+    top: 1408px;
+    margin-left: -296px;
+}
+
+.menupart2 .menusection .linewrapper {
+    display: flex;
+    align-items: baseline;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 0 343px;
+}
+
+.menupart2 .menusection .middle {
+    border-bottom: 1px dotted #aaa;
+    flex-grow: 1;
+    margin: 0 5px;
+    padding: 0 167px;
+}
+
+.menupart2 .menusection .ingredients {
+    padding: 0 343px;
+    color: #d3d3d3;
+    font-family: 'Jost', sans-serif;
+    margin-bottom: 32px;
+}
+
+.menupart2 .container .menucontent {
+    vertical-align: middle;
+    display: flex;
+    margin-top: 200px;
+    margin-left: 677px;
+    animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.menupart2 .container .menucontent img {
+    margin: 8px;
+}
+
+.menupart2 .container .menucontent .img1 {
+    width: 343px;
+    height: 514px;
+}
+
+.menupart2 .container .menucontent .img2 {
+    width: 297px;
+    height: 401px;
+}
+
+.menupart3 .container .headtext {
+    margin-left: 720px;
+    bottom: 640px;
+    position: relative;
+    font-size: 24px;
+    color: #dd5903;
+    font-weight: 600;
+}
+
+.menupart3 .menusection {
+    position: absolute;
+    top: 2051px;
+    left: 450px;
+}
+
+.menupart3 .menusection .linewrapper {
+    display: flex;
+    align-items: baseline;
+    padding-left: 342px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.menupart3 .menusection .middle {
+    border-bottom: 1px dotted #aaa;
+    margin: 0 5px;
+    padding: 0 121px;
+    flex-grow: 1;
+}
+
+.menupart3 .menusection .ingredients {
+    padding-left: 343px;
+    color: #d3d3d3;
+    font-family: 'Jost', sans-serif;
+    margin-bottom: 32px;
+}
+
+.menupart3 .container .menucontent img {
+    width: 600px;
+    height: 792px;
+    position: relative;
+    top: 100px;
+    left: 48px;
+    animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
